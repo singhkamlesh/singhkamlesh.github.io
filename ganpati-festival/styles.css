@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Garet";
-  src: url("_assets/fonts/garet-regular.woff") format("woff");
+  src: url("assets/fonts/garet-regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Garet";
-  src: url("_assets/fonts/garet-bold.woff") format("woff");
+  src: url("assets/fonts/garet-bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: "Telegraf";
-  src: url("_assets/fonts/telegraf-medium.woff") format("woff");
+  src: url("assets/fonts/telegraf-medium.woff") format("woff");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: "Telegraf";
-  src: url("_assets/fonts/telegraf-ultrabold.woff") format("woff");
+  src: url("assets/fonts/telegraf-ultrabold.woff") format("woff");
   font-style: normal;
   font-weight: 800;
   font-display: swap;
