@@ -288,12 +288,74 @@ footer h2 {
   opacity: 0.9;
 }
 
+/* Sponsor section */
+.sponsor-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.sponsor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 36px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.sponsor-card img:not(.payment-qr) {
+  width: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.sponsor-info h3,
+.contribute-card h3 {
+  font-size: 1.4rem;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+
+/* Payment QR */
+.payment-qr {
+  width: 180px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.qr-handle {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  color: var(--secondary);
+}
+
+@media (max-width: 900px) {
+  .sponsor-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .sponsor-card img {
+    width: 180px;
+  }
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .feature,
   .cards,
   .activity-grid,
   .reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-row {
     grid-template-columns: 1fr;
   }
 
